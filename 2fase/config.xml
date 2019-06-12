@@ -1,0 +1,45 @@
+<scene>
+    <group>
+
+        <group>
+            <scale X="20" Y="20" Z="20" />
+            <models>
+                <model file="sphere.3d" />
+            </models>
+        </group>
+
+        <group>
+            <translate X="30" Y="0" Z="0" />
+            <models>
+                <model file="sphere.3d" />
+            </models>
+            <translate X="10" Y="5" Z="0" />
+            <scale X="3" Y="3" Z="3" />
+            <models>
+                <model file="sphere.3d" />
+            </models>
+        </group>
+
+        <group>
+            <translate X="-55" Y="4" Z="15" />
+            <scale X="5" Y="5" Z="5" />
+            <models>
+                <model file="sphere.3d" />
+            </models>
+        </group>
+
+    </group>
+
+    <group>
+        <translate X="-20" Y="-10" Z="70" />
+        <scale X="7" Y="7" Z="7" />
+        <models>
+            <model file="sphere.3d" />
+        </models>
+
+        <translate X="10" Y="-10" Z="-40" />
+        <models>
+            <model file="sphere.3d" />
+        </models>
+    </group>
+</scene>

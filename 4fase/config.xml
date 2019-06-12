@@ -1,0 +1,102 @@
+<scene>
+    <lights>
+        <light type="POINT" posX="0" posY="0" posZ="0" />
+        <!-- <light type="POINT" posX="0" posY="0" posZ="100" /> -->
+        <!-- <light type="SPOT" posX="0" posY="0" posZ="200" /> -->
+        <!-- <light type="SPOT" posX="3" posY="0" posZ="10" /> -->
+        <!-- <light type="DIRECTIONAL" posX="3" posY="0" posZ="10" /> -->
+    </lights>
+    <group>
+        <!-- SOL -->
+        <group>
+            <scale X="30" Y="30" Z="30" />
+            <rotate time="50" axisX="0" axisY="1" axisZ="0" />
+            <models>
+                <model file="sphere.3d" texture="2k_sun.jpg" emisR="1" emisG="1" emisB="1" />
+            </models>
+
+        </group>
+
+        <!-- MERCURIO -->
+        <group>
+            <rotate time="100" axisX="0" axisY="1" axisZ="0" />
+            <translate X="0" Y="0" Z="35" />
+            <rotate time="10" axisX="0" axisY="1" axisZ="0" />
+            <models>
+                <model file="sphere.3d" texture="2k_mercury.jpg" diffR="1" diffG="1" diffB="1" />
+            </models>
+        </group>
+
+        <!-- VENUS -->
+        <group>
+            <rotate time="150" axisX="0" axisY="1" axisZ="0" />
+            <translate X="0" Y="0" Z="45" />
+            <scale X="1.5" Y="1.5" Z="1.5" />
+            <rotate time="10" axisX="0" axisY="1" axisZ="0" />
+            <models>
+                <model file="sphere.3d" texture="2k_jenus_surface.jpg" diffR="1" diffG="1" diffB="1" />
+            </models>
+        </group>
+
+        <!-- TERRA -->
+        <group>
+            <rotate time="200" axisX="0" axisY="1" axisZ="0" />
+            <translate X="0" Y="0" Z="60" />
+            <scale X="2" Y="2" Z="2" />
+            <rotate time="20" axisX="0" axisY="1" axisZ="0" />
+            <models>
+                <model file="sphere.3d" texture="2k_earth.jpg"  diffR="1" diffG="1" diffB="1" />
+            </models>
+        </group>
+
+        <!-- MARTE -->
+        <group>
+            <rotate time="270" axisX="0" axisY="1" axisZ="0" />
+            <translate X="0" Y="0" Z="70" />
+            <scale X="1.7" Y="1.7" Z="1.7" />
+            <rotate time="20" axisX="0" axisY="1" axisZ="0" />
+            <models>
+                <model file="sphere.3d" texture="2k_mars.jpg" diffR="1" diffG="1" diffB="1" />
+            </models>
+        </group>
+
+        JUPITER
+        <group>
+            <rotate time="350" axisX="0" axisY="1" axisZ="0" />
+            <translate X="0" Y="0" Z="85" />
+            <scale X="10" Y="10" Z="10" />
+            <rotate time="5" axisX="0" axisY="1" axisZ="0" />
+            <models>
+                <model file="sphere.3d" texture="2k_jupiter.jpg" diffR="1" diffG="1" diffB="1" />
+            </models>
+        </group>
+
+        SATURNO
+        <group>
+            <rotate time="400" axisX="0" axisY="1" axisZ="0" />
+            <translate X="0" Y="0" Z="110" />
+            <scale X="9" Y="9" Z="9" />
+            <rotate time="5" axisX="0" axisY="1" axisZ="0" />
+            <models>
+                <model file="sphere.3d" texture="2k_saturn.jpg" diffR="1" diffG="1" diffB="1" />
+            </models>
+        </group>
+
+    </group>
+
+    <group>
+        <translate time="50" >
+            <point X="40" Y="0" Z="200" />
+            <point X="-40" Y="0" Z="200" />
+            <point X="-70" Y="0" Z="0" />
+            <point X="-40" Y="0" Z="-200" />
+            <point X="40" Y="0" Z="-200" />
+            <point X="70" Y="0" Z="0" />
+        </translate>
+        <models>
+            <model file="sphere.3d" diffR="0" diffG="1" diffB="0"/>
+        </models>
+
+    </group>
+
+</scene>

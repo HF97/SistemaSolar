@@ -1,0 +1,116 @@
+<scene>
+    <group>
+        <!-- SOL -->
+        <group>
+            <scale X="30" Y="30" Z="30" />
+            <rotate time="50" axisX="0" axisY="1" axisZ="0" />
+            <models>
+                <model file="sphere.3d" R="9833" G="1" B="0" />
+            </models>
+
+        </group>
+
+        <!-- MERCURIO -->
+        <group>
+            <rotate time="100" axisX="0" axisY="1" axisZ="0" />
+            <translate X="0" Y="0" Z="35" />
+            <rotate time="10" axisX="0" axisY="1" axisZ="0" />
+            <models>
+                <model file="sphere.3d" R="0.65" G="0.4117" B="0" />
+            </models>
+        </group>
+
+        <!-- VENUS -->
+        <group>
+            <rotate time="150" axisX="0" axisY="1" axisZ="0" />
+            <translate X="0" Y="0" Z="45" />
+            <scale X="1.5" Y="1.5" Z="1.5" />
+            <rotate time="10" axisX="0" axisY="1" axisZ="0" />
+            <models>
+                <model file="sphere.3d" R="1" G="0.8" B="0" />
+            </models>
+        </group>
+
+        <!-- TERRA -->
+        <group>
+            <rotate time="200" axisX="0" axisY="1" axisZ="0" />
+            <translate X="0" Y="0" Z="60" />
+            <scale X="2" Y="2" Z="2" />
+            <rotate time="20" axisX="0" axisY="1" axisZ="0" />
+            <models>
+                <model file="sphere.3d" R="0" G="0.6333" B="1" />
+            </models>
+        </group>
+
+        <!-- MARTE -->
+        <group>
+            <rotate time="270" axisX="0" axisY="1" axisZ="0" />
+            <translate X="0" Y="0" Z="70" />
+            <scale X="1.7" Y="1.7" Z="1.7" />
+            <rotate time="20" axisX="0" axisY="1" axisZ="0" />
+            <models>
+                <model file="sphere.3d" R="1" G="0" B="0" />
+            </models>
+        </group>
+
+        <!-- JUPITER -->
+        <group>
+            <rotate time="350" axisX="0" axisY="1" axisZ="0" />
+            <translate X="0" Y="0" Z="85" />
+            <scale X="10" Y="10" Z="10" />
+            <rotate time="5" axisX="0" axisY="1" axisZ="0" />
+            <models>
+                <model file="sphere.3d" R="1" G="0.905" B="0.62" />
+            </models>
+        </group>
+
+        <!-- SATURNO -->
+        <group>
+            <rotate time="400" axisX="0" axisY="1" axisZ="0" />
+            <translate X="0" Y="0" Z="110" />
+            <scale X="9" Y="9" Z="9" />
+            <rotate time="5" axisX="0" axisY="1" axisZ="0" />
+            <models>
+                <model file="sphere.3d" R="1" G="0.8525" B="0.41" />
+            </models>
+        </group>
+
+        <!-- URANO -->
+        <group>
+            <rotate time="500" axisX="0" axisY="1" axisZ="0" />
+            <translate X="0" Y="0" Z="140" />
+            <scale X="2" Y="2" Z="2" />
+            <rotate time="5" axisX="0" axisY="1" axisZ="0" />
+            <models>
+                <model file="sphere.3d" R="0.53" G="0.9608" B="1" />
+            </models>
+        </group>
+
+        <!-- NEPTUNO -->
+        <group>
+            <rotate time="600" axisX="0" axisY="1" axisZ="0" />
+            <translate X="0" Y="0" Z="170" />
+            <scale X="2" Y="2" Z="2" />
+            <rotate time="5" axisX="0" axisY="1" axisZ="0" />
+            <models>
+                <model file="sphere.3d" R="0" G="0.7517" B="0.82" />
+            </models>
+        </group>
+    </group>
+
+    <group>
+        <translate time="50" >
+            <point X="40" Y="0" Z="200" />
+            <point X="-40" Y="0" Z="200" />
+            <point X="-70" Y="0" Z="0" />
+            <point X="-40" Y="0" Z="-200" />
+            <point X="40" Y="0" Z="-200" />
+            <point X="70" Y="0" Z="0" />
+        </translate>
+        <models>
+            <model file="sphere.3d" />
+        </models>
+
+    </group>
+
+</scene>
